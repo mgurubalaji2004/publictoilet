@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toilet Maintenance</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <h1>Toilet Maintenance</h1>
+
+        <div class="status-box">
+            <p>Cleaning Status: <span id="cleaning-status">Not Cleaning</span></p>
+        </div>
+
+        <button class="start-btn" onclick="startCleaning()">Start Cleaning</button>
+        <button class="stop-btn" onclick="stopCleaning()">Stop Cleaning</button>
+
+        <div class="bar-box">
+            <label>Users Count:</label>
+            <div class="bar users-bar"><span id="user-count">0</span></div>
+        </div>
+
+        <div class="bar-box">
+            <label>Toilet Cleaned:</label>
+            <div class="bar cleaned-bar"><span id="cleaned-count">0</span></div>
+        </div>
+
+        <div class="bar-box">
+            <label>Air Quality Level:</label>
+            <div class="bar air-quality-bar"><span id="air-quality">Good</span></div>
+        </div>
+
+        <div class="bar-box">
+            <label>Users Used Toilet:</label>
+            <div class="bar toilet-used-bar"><span id="toilet-used">0</span></div>
+        </div>
+
+        <div class="bar-box">
+            <label>Users Used Urinal:</label>
+            <div class="bar urinal-used-bar"><span id="urinal-used">0</span></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,91 @@
+/* Fullscreen, Mobile-like Layout */
+body {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Mobile App Container */
+.app-container {
+    width: 360px;
+    height: 640px;
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header */
+h1 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+/* Cleaning Status */
+.status-box {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+.start-btn, .stop-btn {
+    width: 80%;
+    padding: 12px;
+    margin: 5px 0;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+}
+
+.start-btn {
+    background: green;
+}
+
+.stop-btn {
+    background: red;
+}
+
+/* Bar Container */
+.bar-box {
+    width: 100%;
+    margin: 10px 0;
+    text-align: left;
+}
+
+/* Labels */
+.bar-box label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 3px;
+}
+
+/* Progress Bars */
+.bar {
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Different Bar Colors */
+.users-bar { background: blue; }
+.cleaned-bar { background: purple; }
+.air-quality-bar { background: teal; }
+.toilet-used-bar { background: brown; }
+.urinal-used-bar { background: darkgreen; }
+
